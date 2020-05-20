@@ -1,0 +1,294 @@
+@import url('https://fonts.google.com/specimen/Cambria');
+
+header
+{
+    margin: 0px;
+    background-color: white;
+    font-family: 'Cambria';
+    
+}
+body
+{
+    margin: 0px;
+    background-color: white;
+    resize: horizontal;
+    font-family: 'Cambria';
+    overflow: auto;
+}
+footer
+{
+    margin: 0px;
+    margin-top:100px;
+    margin-bottom: 0px;
+    font-family: 'Cambria'; 
+    border-radius: 80px;
+    background-color:rgb(80, 176, 255) ;
+    padding-top: 10px;
+}
+h1,h2 
+{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.2em;
+    
+}
+p, blockquote
+{
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ul
+{
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+.teto
+{
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fejlec-hatter
+{
+    border-radius: 10px;
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kapcsolat-hatter
+{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.magamrol
+{
+    float: left;
+    max-width: 50%;
+    margin-right: 20px;
+}
+.szabadido
+{
+    max-width: 20%;
+    float: left;     
+}
+.gpk
+{
+    vertical-align: text-top;
+    float: right;
+    max-width: 10%;
+    margin: 25px;
+}
+.amb
+{
+    max-width: 30%;
+    float: left;
+    text-decoration-line: underline;
+    margin-left: 30px;
+}
+.szab
+{
+    max-width: 30%;
+    float: left;
+    text-decoration-line: underline;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.motor
+{
+    border-radius: 10px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;   
+}
+.email
+{
+    background: transparent;
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding-top: 10px;
+}
+.rszt1
+{
+    border-radius: 10px;
+    max-width: 50%;
+    height: 500px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.rszt2
+{
+    border-radius: 10px;
+    height: 500px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.nyil
+{
+    max-width: 10%;
+    vertical-align:180px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ora0
+{
+    border-radius: 10px;
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.ora1
+{
+    border-radius: 10px;
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}.ora
+{
+    border-radius: 10px;
+    max-width: 40%;
+    height: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+.bevezeto
+{
+    
+    text-align: center;
+}
+.kapcs
+{
+    max-width: 10%;
+    height: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.kapcs-p
+{
+    padding: 1px;
+}
+.lapok
+{
+    height: 80px;
+    text-size-adjust: 20px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+.button1
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 24%;
+    color: whitesmoke;
+    transition-duration: 500ms;
+    list-style-type: none;
+    font-size: 24px;
+}
+.button1:hover
+{
+    background-color: rgb(80, 176, 255);
+    color: whitesmoke;
+}
+.button2
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 24%;
+    color: whitesmoke;
+    transition-duration: 500ms;
+    font-size: 24px;
+    list-style-type: none;
+}
+.button2:hover
+{
+    background-color: rgb(80, 176, 255);
+    color: whitesmoke;
+}
+.button3
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 24%;
+    text-decoration-color: whitesmoke;
+    transition-duration: 500ms;
+    font-size: 24px;
+    list-style-type: none;
+}
+.button3:hover
+{
+    background-color: rgb(80, 176, 255);
+    color: whitesmoke;
+}
+.button4
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 24%;
+    color: whitesmoke;
+    transition-duration: 500ms;
+    font-size: 24px;
+    list-style-type: none;
+}
+.button4:hover
+{
+    background-color: rgb(80, 176, 255);
+    color: whitesmoke;
+}
